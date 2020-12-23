@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sunjaeyoon/JobMap/issues"
   },
-  "homepage": "https://github.com/sunjaeyoon/JobMap#readme"
+  "homepage": "https://github.com/sunjaeyoon/JobMap#readme",
+  "dependencies": {
+    "three": "^0.123.0"
+  }
 }
