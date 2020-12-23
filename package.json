@@ -1,0 +1,19 @@
+{
+  "name": "jobmap",
+  "version": "1.0.0",
+  "description": "An interactive job map in React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunjaeyoon/JobMap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunjaeyoon/JobMap/issues"
+  },
+  "homepage": "https://github.com/sunjaeyoon/JobMap#readme"
+}
