@@ -3,6 +3,8 @@ import ReactGlobe from "react-globe";
 import 'tippy.js/dist/tippy.css';
 import 'tippy.js/animations/scale.css';
 
+import Header from "./component/Header/Header";
+
 function App() {
   const markers = [
     {
@@ -61,11 +63,12 @@ function App() {
     markerTooltipRenderer: marker => `${marker.city} (${marker.value})`,
   };
  
-  const [globe, setGlobe] = useState(null);
+  const [globe] = useState(null);
   console.log(globe); // captured globe instance with API methods
   
   return (
     <div className="App">
+      <Header/>
       <ReactGlobe
         markers={markers}
         options={options}
