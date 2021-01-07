@@ -1,2 +1,3 @@
 # JobMap
-An interactive job map in React
+An interactive job map in React [Incomplete]
+
